@@ -71,12 +71,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (window.Typed) {
-    new Typed("#typed-name", {
-      strings: ["Wang Ziyu", "王子煜", "a UAV Researcher", "an Autonomous Driving PhD"],
-      typeSpeed: 64,
-      backSpeed: 34,
-      backDelay: 1500,
-      loop: true
+    new Typed("#typed-motto", {
+      strings: ["My dream is to have weekdays off."],
+      typeSpeed: 52,
+      showCursor: true,
+      cursorChar: "|",
+      loop: false
     });
   }
 
