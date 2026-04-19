@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wang Ziyu (王子煜), PhD researcher in autonomous driving, UAV naturalistic driving datasets, HD maps, and safety-critical scenario mining at Jilin University.">
+  <meta property="og:title" content="Ziyu Wang | Autonomous Driving Researcher">
+  <meta property="og:description" content="Personal academic portfolio for Wang Ziyu, PhD candidate at Jilin University.">
+  <meta property="og:type" content="website">
+  <title>Ziyu Wang | Autonomous Driving Researcher</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <nav class="navbar" id="navbar" aria-label="Primary navigation">
+    <a class="logo" href="#hero" aria-label="Wang Ziyu home">ZW</a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero">
+      <div id="hero-particles" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="avatar-wrap" aria-label="Avatar placeholder">
+          <img src="assets/avatar.jpg" alt="Gray silhouette avatar placeholder">
+        </div>
+        <p class="hero-kicker">Hi, I'm</p>
+        <h1><span id="typed-name"></span></h1>
+        <p class="hero-meta">PhD Candidate · Jilin University · AD Safety Lab</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="btn btn-primary" href="#publications"><i class="fa-solid fa-file-lines"></i> View Research</a>
+          <a class="btn btn-secondary" href="#contact"><i class="fa-solid fa-envelope-open-text"></i> Contact Me</a>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-inner about-grid" data-aos="fade-up">
+        <div>
+          <p class="section-label">About Me</p>
+          <h2>Drone-based naturalistic driving research for safer autonomous vehicles.</h2>
+          <div class="prose">
+            <p>I'm a PhD candidate in Vehicle Engineering at the School of Automotive Engineering, Jilin University (吉林大学), affiliated with the Automated Driving Safety Joint Lab and DriveResearch.Tech (驭研科技).</p>
+            <p>My research focuses on building naturalistic driving datasets from drone bird's-eye-view imagery — extracting vehicle and pedestrian trajectories, constructing HD maps, and mining safety-critical scenarios to advance autonomous driving safety evaluation.</p>
+            <p>Previously, I interned at Shenzhen Zhuoyu Technology as a functional safety engineer, where I developed the full aerial trajectory acquisition and analysis pipeline used in port autonomy and open-road AV testing.</p>
+          </div>
+        </div>
+        <div class="stats-grid" aria-label="Research statistics">
+          <div class="stat-card">
+            <strong class="stat-number" data-target="1">0</strong>
+            <span>IEEE T-ITS Paper</span>
+          </div>
+          <div class="stat-card">
+            <strong class="stat-number" data-target="4">0</strong>
+            <span>Invention Patents</span>
+          </div>
+          <div class="stat-card">
+            <strong class="stat-number" data-target="3" data-suffix="+">0</strong>
+            <span>Years UAV Research</span>
+          </div>
+          <div class="stat-card">
+            <strong class="stat-number" data-target="5" data-suffix="+">0</strong>
+            <span>National Projects</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section research" id="research">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-label">Research</p>
+          <h2>Academic and applied research timeline.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item" data-aos="fade-right">
+            <div class="timeline-card">
+              <span>2025 → Present</span>
+              <h3>PhD in Vehicle Engineering, Jilin University</h3>
+              <p>Focus: Drone-based NDS dataset construction, safety-critical scenario library for L4 autonomous vehicles</p>
+            </div>
+          </article>
+          <article class="timeline-item" data-aos="fade-left">
+            <div class="timeline-card">
+              <span>2024 → Present</span>
+              <h3>UAV Low-Altitude Information Acquisition</h3>
+              <p>National Pilot Project: UAV bird's-eye view + LiDAR point clouds; autonomous driving test case development</p>
+            </div>
+          </article>
+          <article class="timeline-item" data-aos="fade-right">
+            <div class="timeline-card">
+              <span>2023 → Present</span>
+              <h3>Expected Functional Safety, SAIC Innovation Fund</h3>
+              <p>Port-scene aerial trajectory dataset; safety-critical scenario construction for unmanned heavy trucks</p>
+            </div>
+          </article>
+          <article class="timeline-item" data-aos="fade-left">
+            <div class="timeline-card">
+              <span>2023 → 2025</span>
+              <h3>Master's Degree, Vehicle Engineering, Jilin University</h3>
+              <p>Trajectory smoothing, OpenDRIVE map construction, Chinese-characteristic driver model</p>
+            </div>
+          </article>
+          <article class="timeline-item" data-aos="fade-right">
+            <div class="timeline-card">
+              <span>2023</span>
+              <h3>Intern, Shenzhen Zhuoyu Technology</h3>
+              <p>Full pipeline: UAV operation → target detection (YOLOv8) → tracking (DeepSORT) → trajectory analysis → PyQt visualization UI</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section publications" id="publications">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-label">Publications</p>
+          <h2>Selected paper and patents.</h2>
+        </div>
+        <article class="publication-card" data-aos="fade-up">
+          <div class="pub-meta"><i class="fa-solid fa-file-lines"></i> IEEE Transactions on Intelligent Transportation Systems</div>
+          <p class="pub-details">2025 · Volume 26(10) · Pages 14501–14515</p>
+          <h3>A Comprehensive Review of Drone-Based Autonomous Driving Datasets: Methodology, Taxonomy, and Prospects</h3>
+          <p class="authors">Wang Z., Kou H., Lv Z., Zhang Y., Guo Z., Wang C.</p>
+          <div class="pub-actions">
+            <a class="chip-link" href="https://doi.org/10.1109/TITS.2025.3571726" target="_blank" rel="noopener"><i class="fa-solid fa-link"></i> DOI Link</a>
+            <button class="chip-link" type="button" id="copy-bibtex"><i class="fa-regular fa-copy"></i> Copy BibTeX</button>
+            <span class="featured"><i class="fa-solid fa-star"></i> Featured</span>
+          </div>
+        </article>
+
+        <details class="patents" data-aos="fade-up">
+          <summary>Invention Patents</summary>
+          <ul>
+            <li><strong>CN117218893A</strong> · A trajectory extraction and analysis method for UAV aerial traffic video</li>
+            <li><strong>CN117274974A</strong> · A safety-critical scenario mining method based on aerial vehicle trajectories</li>
+            <li><strong>CN117315554A</strong> · A port autonomous driving test scenario construction method</li>
+            <li><strong>CN117402169A</strong> · A road HD map generation method from drone imagery and point clouds</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2>Research systems and applied tools.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-aos="fade-up">
+            <div class="project-icon">🛸</div>
+            <div class="project-title-row">
+              <h3>UAV-NDS Toolkit</h3>
+              <span class="status status-orange">In Progress</span>
+            </div>
+            <p>End-to-end pipeline for drone video → trajectory extraction → traffic risk analysis</p>
+            <div class="tags"><span>Python</span><span>YOLOv8</span><span>DeepSORT</span><span>OpenCV</span></div>
+            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+          <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-icon">⚠️</div>
+            <div class="project-title-row">
+              <h3>AV Safety Scenario Library</h3>
+              <span class="status status-blue">Active Research</span>
+            </div>
+            <p>Safety-critical scenario mining for L4 autonomous trucks in port environments</p>
+            <div class="tags"><span>OpenDRIVE</span><span>TTC</span><span>THW</span><span>Port Scene</span></div>
+            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+          <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-icon">🚗</div>
+            <div class="project-title-row">
+              <h3>Chinese Driver Behavior Model</h3>
+              <span class="status status-green">Published</span>
+            </div>
+            <p>Chinese-characteristic human driver model derived from aerial survey trajectory data</p>
+            <div class="tags"><span>Trajectory Analysis</span><span>Statistical Modeling</span><span>NDS</span></div>
+            <a href="#" class="project-link"><i class="fa-brands fa-github"></i> GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-inner skills-grid">
+        <div data-aos="fade-up">
+          <p class="section-label">Skills</p>
+          <h2>Technical capabilities.</h2>
+          <div class="skill-bars">
+            <div class="skill"><div><span>Python (PyTorch, OpenCV, NumPy)</span><b>92%</b></div><div class="bar"><span data-width="92%"></span></div></div>
+            <div class="skill"><div><span>Computer Vision (YOLO, DeepSORT)</span><b>88%</b></div><div class="bar"><span data-width="88%"></span></div></div>
+            <div class="skill"><div><span>Trajectory Analysis & Kalman Filter</span><b>85%</b></div><div class="bar"><span data-width="85%"></span></div></div>
+            <div class="skill"><div><span>OpenDRIVE / HD Map Tools</span><b>80%</b></div><div class="bar"><span data-width="80%"></span></div></div>
+            <div class="skill"><div><span>C++</span><b>65%</b></div><div class="bar"><span data-width="65%"></span></div></div>
+            <div class="skill"><div><span>PyQt5 GUI Development</span><b>75%</b></div><div class="bar"><span data-width="75%"></span></div></div>
+          </div>
+        </div>
+        <div class="badge-panel" data-aos="fade-up" data-aos-delay="100">
+          <div class="badge-group"><h3>Detection/Tracking</h3><div><span>YOLOv8</span><span>DeepSORT</span><span>SAHI</span></div></div>
+          <div class="badge-group"><h3>Mapping</h3><div><span>RoadRunner</span><span>OpenDRIVE</span><span>Lanelet2</span></div></div>
+          <div class="badge-group"><h3>Simulation</h3><div><span>PTV VISSIM</span><span>51SIMONE</span><span>CarSim</span></div></div>
+          <div class="badge-group"><h3>Hardware</h3><div><span>DJI Matrice</span><span>LiDAR</span><span>GNSS/IMU</span></div></div>
+          <div class="badge-group"><h3>Standards</h3><div><span>ISO 21448</span><span>ISO 34502</span><span>GB/T 43257</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-inner contact-grid">
+        <div data-aos="fade-up">
+          <p class="section-label">Contact</p>
+          <h2>Research collaboration and dataset inquiries.</h2>
+          <div class="contact-list">
+            <a href="mailto:ziyu25@mails.jlu.edu.cn"><i class="fa-solid fa-envelope"></i> ziyu25@mails.jlu.edu.cn</a>
+            <a href="tel:+8618842769613"><i class="fa-solid fa-mobile-screen-button"></i> +86 188-4276-9613</a>
+            <a href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" target="_blank" rel="noopener"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+            <p><i class="fa-solid fa-building-columns"></i> School of Automotive Engineering, Jilin University, Changchun, China</p>
+            <p><i class="fa-solid fa-flask"></i> Automated Driving Safety Joint Lab</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" data-aos="fade-up" data-aos-delay="100" novalidate>
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+          <label>Subject
+            <select name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="Dataset Access">Dataset Access</option>
+              <option value="General Inquiry">General Inquiry</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Wang Ziyu · Jilin University Automated Driving Safety Joint Lab</p>
+    <p>Built with ❤️ · Hosted on GitHub Pages</p>
+  </footer>
+
+  <template id="bibtex-template">@article{wang2025drone,
+  title={A Comprehensive Review of Drone-Based Autonomous Driving Datasets: Methodology, Taxonomy, and Prospects},
+  author={Wang, Ziyu and Kou, Hao and Lv, Zhihan and Zhang, Yong and Guo, Zhenfu and Wang, Chen},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={26},
+  number={10},
+  pages={14501--14515},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/TITS.2025.3571726}
+}</template>
+</body>
+</html>
